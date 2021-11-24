@@ -1,11 +1,23 @@
-const generateArray = function(amount){
+const myNumber = 2000;
+
+value.length
+
+function loadEvent (){
+    console.log("The page has loaded")
+}
+
+
+
+
+
+/*const generateArray = function(amount){
 
     for (let i = 0; i < amount.length; i++) {
         let returnArray = [];
-        /*
+        
         let amountConverted = parseInt(amount);
         amount = amountConverted;
-        */
+        
         amount = parseInt(amount);
 
         //Number.isNaN(amount)!== true
@@ -28,12 +40,12 @@ const generateArray = function(amount){
 function loadEvent() {
     console.log("The page has loaded");
 
-    /*console.log(generateArray("kiskutya"));
+    console.log(generateArray("kiskutya"));
     console.log(generateArray("1 kiskutya"));
     console.log(generateArray(100));
     console.log(generateArray("100"));
     console.log(generateArray([100]));
-    */
+    
    const root = document.getElementById("root");
    const list = generateArray("6");
    console.log(list);
@@ -44,6 +56,7 @@ function loadEvent() {
        }
    }
 }
+*/
 
 window.addEventListener("load", loadEvent);
 
